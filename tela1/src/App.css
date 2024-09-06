@@ -181,3 +181,99 @@ body, html {
 .profile-image-small {
   height: 100%;
 }
+
+
+
+
+.date-value {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: #E85F95;
+  margin-top: 25px;
+}
+
+.date-value p:nth-child(1) {
+  font-size: .78em;
+}
+
+.date-value p:nth-child(2) {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+
+
+.container-locale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.locale {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.locale p {
+  color: #513d6d;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.select {
+  width: 2px;
+  height: 7px;
+  border: 8px solid #cecece;
+  border-radius: 7px;
+}
+
+.container-locale .select2 {
+  width: 7px;
+  height: 7px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 50%;
+  background-color: #cecece;
+}
+
+.container-locale > p {
+  color: #706c6c;
+  font-size: .78em;
+}
+
+
+
+.container-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.container-action button {
+  border: none;
+  background: unset;
+  cursor: pointer;
+}
+
+.container-action button:nth-child(1) {
+  color: #E85F95;
+  font-size: .8em;
+}
+
+.container-action button:nth-child(2) {
+  color: #fff;
+  background-color: #0f4ba5;
+  font-size: .8em;
+  padding: 30px 12px;
+  border-radius: 15px;
+}
+

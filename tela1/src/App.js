@@ -62,10 +62,31 @@ function App() {
         </div>
       </div>
 
-      <div>
-        
+      <div className="date-value">
+        <p>25 May, 2019</p>
+        <p>50 $</p>
       </div>
 
+      <div className="container-locale">
+        <div className="locale">
+          <div className="select"></div>
+          <p>Chicago</p>
+        </div>
+        <p>20.00</p>
+      </div>
+
+      <div className="container-locale">
+        <div className="locale">
+          <div className="select select2"></div>
+          <p>Oak park</p>
+        </div>
+        <p>20.00</p>
+      </div>
+
+      <div className="container-action">
+        <button>Decline</button>
+        <button>Accept</button>
+      </div>
 
     </div>
   );
